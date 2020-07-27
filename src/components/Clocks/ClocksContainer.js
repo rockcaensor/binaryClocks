@@ -3,7 +3,7 @@ import { updateTimeAC } from "./../../redux/ClocksReducer";
 import Clocks from "./Clocks";
 
 let mapStateToProps = state => {
-  return { ClocksPage: state.ClocksPage };
+  return { time: state.ClocksPage.time };
 };
 
 let mapDispatchToProps = dispatch => {

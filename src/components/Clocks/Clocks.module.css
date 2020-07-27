@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(49, 49, 49);
+}
+.main {
+  display: flex;
+  margin: 20px;
+}
